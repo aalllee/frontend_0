@@ -73,7 +73,7 @@ body {
   bottom: -200px;
   right: 0px;
   display: none;
-  display: flex;
+
   align-items: center;
   justify-content: center;
 }
