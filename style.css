@@ -303,7 +303,7 @@ footer {
 
 .footer_copyright {
   position: absolute;
-
+  font-size: 10px;
   right: 50px;
   bottom: 20px;
 }
@@ -330,4 +330,14 @@ footer {
 
 .contact_email {
   margin: 0;
+}
+
+@media (max-width: 600px) {
+  .inner_footer {
+    grid-template-columns: repeat(2, 1fr); /* 1 column on smaller screens */
+  }
+
+  footer {
+    height: 500px;
+  }
 }
