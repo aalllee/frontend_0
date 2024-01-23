@@ -3,10 +3,15 @@ val = document.getElementsByClassName("collapse_menu");
 val[0].addEventListener("click", function () {
   console.log("test");
   var nav = document.getElementsByClassName("collapse_menu_content");
-  console.log(getComputedStyle(nav[0]));
+
+  var style = getComputedStyle(nav[0]);
+
+  var collapse_menu_icon = document.querySelector(".collapse_menu");
+  console.log(collapse_menu_icon);
+  collapse_menu_icon.classList.toggle("header_icon_active");
+
   nav[0].style.display =
     getComputedStyle(nav[0]).display === "flex" ? "none" : "flex";
-  //nav[0].style.display = nav.style.display === "block" ? "none" : "block";
 });
 
 window.addEventListener("resize", function () {
