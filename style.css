@@ -293,7 +293,6 @@ footer {
   display: flex;
   flex-direction: column;
   padding-bottom: 8px;
-  width: 100%;
 }
 
 .footer_section_header {
@@ -313,6 +312,7 @@ footer {
   padding-top: 4px;
   text-decoration: none;
   color: white;
+  display: inline;
 }
 
 .footer_link:hover {
@@ -322,6 +322,10 @@ footer {
 .footer_contact_header {
   margin-top: 15px;
   margin-bottom: 5px;
+}
+
+.link_wrapper {
+  padding-top: 8px;
 }
 
 .contact_email {
