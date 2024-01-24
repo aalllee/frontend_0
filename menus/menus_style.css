@@ -1,0 +1,99 @@
+.body {
+  margin: 0px;
+  padding: 0px;
+  color: whitesmoke;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.out {
+  background-color: aqua;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+}
+
+.outer {
+  background-color: yellow;
+  width: 60px;
+  height: 60px;
+
+  border-radius: 30px;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  position: relative;
+  transition: width 0.5s ease, left 0.5s ease;
+}
+
+input[type="checkbox"]:checked + .hamburger-icon .line:nth-child(1) {
+  transform: translateY(9px) rotate(45deg);
+}
+
+input:checked ~ .outer {
+  width: 90%;
+}
+
+#checkID {
+  display: none;
+}
+
+.bar {
+  width: 100%;
+  background-color: red;
+  width: 100%;
+  height: 0.4rem;
+  border-radius: 2.5rem;
+  padding: 0px;
+  left: calc(50%);
+  z-index: 1;
+  transition: transform 0.5s ease, left 0.5s ease, width 0.2s ease;
+}
+
+input[type="checkbox"]:checked + .outer .span-div .bar2 {
+  transform: rotate(45deg) translate(0.45rem, 10px); /* Apply the desired transformation */
+}
+
+input[type="checkbox"]:checked + .outer .span-div .bar1 {
+  transform: rotate(-45deg) translate(0.45rem, -10px); /* Apply the desired transformation */
+}
+
+input[type="checkbox"]:checked + .outer .span-div .bar3 {
+  width: 0%; /* Apply the desired transformation */
+}
+
+.span-div {
+  display: flex;
+  flex-direction: column;
+  height: 30px;
+  width: 30px;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin-left: 0.85rem;
+}
+
+label {
+  background-color: rgba(0, 0, 255, 0);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+}
+
+.link-div {
+  position: absolute;
+  display: flex;
+  padding-left: 60px;
+}
+
+.link {
+  font-size: 24px;
+  margin-right: 10px;
+}
