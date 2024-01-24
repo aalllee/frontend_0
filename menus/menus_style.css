@@ -12,6 +12,12 @@ body {
   grid-gap: 10px;
 }
 
+@media (max-width: 750px) {
+  .menu-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
 .out {
   background-color: rgb(228, 228, 228);
 
