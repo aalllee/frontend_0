@@ -50,7 +50,7 @@ input[type="checkbox"]:checked + .hamburger-icon .line:nth-child(1) {
 }
 
 input:checked ~ .outer {
-  width: 90%;
+  width: 300px;
 }
 
 #checkID {
@@ -89,7 +89,7 @@ input[type="checkbox"]:checked + .outer .span-div .bar3 {
   justify-content: space-between;
   align-items: center;
   position: relative;
-  margin-left: 0.85rem;
+  margin-left: 0.9rem;
 }
 
 label {
@@ -98,16 +98,19 @@ label {
   width: 100%;
   position: absolute;
   z-index: 2;
+  cursor: pointer;
 }
 
 .link-div {
   position: absolute;
   display: flex;
-  padding-left: 60px;
+
+  margin-left: 60px;
+  width: 100%;
 }
 
 .link {
-  font-size: 24px;
+  font-size: 18px;
   margin-right: 10px;
   color: rgb(238, 238, 238);
   text-decoration: none;
