@@ -1,22 +1,29 @@
-.body {
+body {
   margin: 0px;
   padding: 0px;
-  color: whitesmoke;
+  color: rgb(238, 238, 238);
+  font-family: "Roboto";
+  background-color: rgb(238, 238, 238);
 }
 
 .menu-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
 }
 
 .out {
-  background-color: rgb(219, 219, 219);
+  background-color: rgb(228, 228, 228);
 
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 300px;
+  border-color: black;
+  border-radius: 1px;
+  outline-color: black;
+  outline-width: 2px;
 }
 
 .outer {
@@ -96,6 +103,6 @@ label {
 .link {
   font-size: 24px;
   margin-right: 10px;
-  color: white;
+  color: rgb(238, 238, 238);
   text-decoration: none;
 }
