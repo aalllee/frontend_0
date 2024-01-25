@@ -128,8 +128,7 @@ input[type="checkbox"]:checked + .inner-m1 .span-div-m1 .bar3 {
   transition: 0.4s;
 }
 
-.active,
-.accordion-m2:hover {
+.active {
   background-color: #ff4949;
 }
 
