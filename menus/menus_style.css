@@ -121,6 +121,7 @@ input[type="checkbox"]:checked + .inner-m1 .span-div-m1 .bar3 {
   color: white;
   cursor: pointer;
   padding: 18px;
+
   width: 50%;
   text-align: left;
   border: none;
@@ -139,7 +140,7 @@ input[type="checkbox"]:checked + .inner-m1 .span-div-m1 .bar3 {
   width: 50%;
 
   overflow: hidden;
-
+  margin-bottom: 10px;
   max-height: 0px;
   transition: max-height 0.2s ease-out;
 }
