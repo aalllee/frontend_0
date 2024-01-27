@@ -150,3 +150,50 @@ input[type="checkbox"]:checked + .inner-m1 .span-div-m1 .bar3 {
   padding-left: 8px;
   padding-right: 8px;
 }
+
+/*MENU 3##################*/
+.scroll-outer-m3 {
+  background-color: rgb(195, 195, 195);
+  width: 300px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  overflow: scroll;
+}
+
+.scroll-outer-m3::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll-content-m3 {
+  height: 90%;
+  width: 90px;
+  min-width: 90px;
+  background-color: rgb(29, 29, 29);
+  margin-right: 5px;
+  margin-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scroll-btn-m3 {
+  width: 24px;
+  height: 24px;
+  margin: 10px;
+  background-color: rgb(255, 164, 84);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+#back-m3 {
+}
+#forward-m3 {
+}
+
+.div-m3 {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
