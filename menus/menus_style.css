@@ -197,3 +197,53 @@ input[type="checkbox"]:checked + .inner-m1 .span-div-m1 .bar3 {
   display: flex;
   align-items: center;
 }
+
+/*MENU 4##################*/
+.menu-inner-m4 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 80%;
+  height: 80%;
+  max-width: 400px;
+}
+.buttons-m4 {
+  background-color: rgb(218, 218, 218);
+  margin-bottom: 5px;
+  display: flex;
+}
+
+.btn-m4 {
+  background-color: rgb(218, 218, 218);
+  height: 60px;
+  width: 100px;
+  margin: 0px;
+  padding: 0px;
+  cursor: pointer;
+  border-width: 0px;
+}
+
+.btn-m4:not(.btn-active-m4):hover {
+  background-color: rgb(205, 205, 205);
+}
+
+.text-m4 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.tab-m4 {
+  display: none;
+  color: black;
+}
+
+.tab-active-m4 {
+  display: block;
+}
+
+.btn-active-m4 {
+  background-color: white;
+}

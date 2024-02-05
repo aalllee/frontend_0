@@ -47,3 +47,35 @@ btnBack.addEventListener("click", function () {
   });
   console.log(scrollContainer.scrollLeft);
 });
+
+/*MENU 4########*/
+var btns_m4 = document.querySelectorAll(".btn-m4");
+var tabs_m4 = document.querySelectorAll(".tab-m4");
+console.log(typeof tabs_m4);
+
+for (const tab of btns_m4) {
+  tab.addEventListener("click", function () {
+    console.log("test_click");
+
+    const tabId = this.getAttribute("data-tab");
+
+    btns_m4.forEach(function (x) {
+      x.classList.remove("btn-active-m4");
+    });
+
+    tabs_m4.forEach(function (x) {
+      x.classList.remove("tab-active-m4");
+    });
+
+    document.getElementById(tabId).classList.add("tab-active-m4");
+    tab.classList.add("btn-active-m4");
+  });
+}
+/*
+tabs_m4.array.forEach(function (tabLink) {
+  tabLink.addEventListener("click", function () {
+    console.log("test_click");
+  });
+  console.log(typeof tabs_m4);
+});
+*/
