@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Google Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    />
+    <!-- Your other stylesheets go here -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header_logo_container">
+        <a href="https://google.com">
+          <img
+            src="icons/bxs-user-account.svg"
+            alt="SVG Icon"
+            width="50"
+            height="50"
+            class="header_icon"
+          />
+        </a>
+
+        <p class="logo_separator">|</p>
+        <a href="https://google.com" class="header_link">Help Center</a>
+      </div>
+
+      <div>
+        <a href="dragNdrop_planner/index.html">NEXT</a>
+        <a href="menus/menus.html">NEXT</a>
+        <button class="header_button submit">Submit a request</button>
+        <button class="header_button sign_in">Sign In</button>
+
+        <img
+          src="icons/bx-menu.svg"
+          alt="SVG Icon"
+          width="50"
+          height="50"
+          class="header_icon collapse_menu"
+        />
+      </div>
+      <div class="collapse_menu_content">
+        <div class="collapse_menu_inner">
+          <a href="https://google.com" class="collapse_link"
+            >Submit a request</a
+          >
+          <a href="https://google.com" class="collapse_link">Sign In</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="main_section">
+        <div class="outer_container">
+          <div class="hero_text">How can we help?</div>
+          <div class="form">
+            <form>
+              <input
+                placeholder="Search"
+                type="search"
+                id="search"
+                name="search"
+              />
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="categories">
+        <div class="category_grid">
+          <div class="categories_container">
+            <div class="category_icon">
+              <img
+                src="icons/bx-git-branch.svg"
+                alt="SVG Icon"
+                width="100"
+                height="100"
+                class="category_icon"
+              />
+            </div>
+            <div class="category_text_container">
+              <h4>Using Abstract</h4>
+              Abstract lets you manage, version, and document your designs in
+              one place.
+              <a href="https://google.com" class="categories_link"
+                >Learn more</a
+              >
+            </div>
+          </div>
+
+          <div class="categories_container">
+            <div class="category_icon">
+              <img
+                src="icons/bxs-user-account.svg"
+                alt="SVG Icon"
+                width="100"
+                height="100"
+                class="category_icon"
+              />
+            </div>
+            <div class="category_text_container">
+              <h4>Manage your account</h4>
+              Configure your account settings, such as your email, profile
+              details, and password.
+              <a href="https://google.com" class="categories_link"
+                >Learn more</a
+              >
+            </div>
+          </div>
+
+          <div class="categories_container">
+            <div class="category_icon">
+              <img
+                src="icons/bxl-graphql.svg"
+                alt="SVG Icon"
+                width="100"
+                height="100"
+              />
+            </div>
+            <div class="category_text_container">
+              <h4>Manage organizations, teams, and projects</h4>
+              Use Abstract organizations, teams, and projects to organize your
+              people and your work.
+              <a href="https://google.com" class="categories_link"
+                >Learn more</a
+              >
+            </div>
+          </div>
+
+          <div class="categories_container">
+            <div class="category_icon">
+              <img
+                src="icons/bxs-bank.svg"
+                alt="SVG Icon"
+                width="100"
+                height="100"
+              />
+            </div>
+            <div class="category_text_container">
+              <h4>Manage billing</h4>
+              Change subscriptions and payment details.
+              <a href="https://google.com" class="categories_link"
+                >Learn more</a
+              >
+            </div>
+          </div>
+
+          <div class="categories_container">
+            <div class="category_icon">
+              <img
+                src="icons/bx-key.svg"
+                alt="SVG Icon"
+                width="100"
+                height="100"
+              />
+            </div>
+            <div class="category_text_container">
+              <h4>Authenticate to Abstract</h4>
+              Set up and configure SSO, SCIM, and Just-in-Time provisioning.
+              <a href="https://google.com" class="categories_link"
+                >Learn more</a
+              >
+            </div>
+          </div>
+          <div class="categories_container">
+            <div class="category_icon">
+              <img
+                src="icons/bx-message-dots.svg"
+                alt="SVG Icon"
+                width="100"
+                height="100"
+              />
+            </div>
+            <div class="category_text_container">
+              <h4>Abstract support</h4>
+              Get in touch with a human.
+              <a href="https://google.com" class="categories_link"
+                >Learn more</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="inner_footer">
+        <div class="footer_section">
+          <h4 class="footer_section_header">Abstract</h4>
+          <div class="link_wrapper">
+            <a href="https://google.com" class="footer_link">Start Trial</a>
+          </div>
+
+          <div class="link_wrapper">
+            <a href="https://google.com" class="footer_link">Pricing</a>
+          </div>
+          <div class="link_wrapper">
+            <a href="https://google.com" class="footer_link">Download</a>
+          </div>
+        </div>
+
+        <div class="footer_section">
+          <h4 class="footer_section_header">Resources</h4>
+          <div class="link_wrapper">
+            <a href="https://google.com" class="footer_link">Blog</a>
+          </div>
+          <div class="link_wrapper">
+            <a href="https://google.com" class="footer_link">Help Center</a>
+          </div>
+          <div class="link_wrapper">
+            <a href="https://google.com" class="footer_link">Release Notes</a>
+          </div>
+          <div class="link_wrapper">
+            <a href="https://google.com" class="footer_link">Status</a>
+          </div>
+        </div>
+        <div class="footer_section">
+          <h4 class="footer_section_header">Community</h4>
+          <div class="link_wrapper">
+            <a href="https://google.com" class="footer_link">Twitter</a>
+          </div>
+          <div class="link_wrapper">
+            <a href="https://google.com" class="footer_link">LinkedIn</a>
+          </div>
+          <div class="link_wrapper">
+            <a href="https://google.com" class="footer_link">Facebook</a>
+          </div>
+          <div class="link_wrapper">
+            <a href="https://google.com" class="footer_link">Dribble</a>
+          </div>
+          <div class="link_wrapper">
+            <a href="https://google.com" class="footer_link">Podcast</a>
+          </div>
+        </div>
+        <div class="footer_section">
+          <h4 class="footer_section_header">Company</h4>
+          <div class="link_wrapper">
+            <a href="https://google.com" class="footer_link">About Us</a>
+          </div>
+          <div class="link_wrapper">
+            <a href="https://google.com" class="footer_link">Careers</a>
+          </div>
+          <div class="link_wrapper">
+            <a href="https://google.com" class="footer_link">Legal</a>
+          </div>
+          <div class="link_wrapper">
+            <h4 class="footer_contact_header">Contact Us</h4>
+          </div>
+          <p class="contact_email">info@contact.com</p>
+        </div>
+      </div>
+      <div class="footer_copyright">
+        © Copyright 2023 Abstract Studio Design, Inc. All rights reserved
+      </div>
+    </footer>
+    <script src="scr.js"></script>
+  </body>
+</html>
