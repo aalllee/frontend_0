@@ -33,7 +33,8 @@ function sendHttpRequest(method, url, data = null) {
     method: method,
   };
 
-  if (method === "POST") {
+  if (method === "POST" || method === "DELETE") {
+    console.log("test");
     parm = {
       method: method,
       body: JSON.stringify(data),
